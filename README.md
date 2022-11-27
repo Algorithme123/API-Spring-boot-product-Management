@@ -26,4 +26,13 @@
 ### link : http://localhost:3000/Produit/produit/upDate/1
 
 ![image](https://user-images.githubusercontent.com/101357738/204156139-73c062c2-cde4-412d-a0e1-b0562f05a909.png)
+![image](https://user-images.githubusercontent.com/101357738/204156532-48775cae-f704-46a3-8bae-6237c1fc4b0d.png)
 
+
+## DELETE product 
+### link : http://localhost:3000/Produit/produit/delete/2
+
+![image](https://user-images.githubusercontent.com/101357738/204156578-7a7e2eee-3443-4175-8239-2722961378d5.png)
+
+
+![image](https://user-images.githubusercontent.com/101357738/204156616-9eaaa00a-ecea-4b95-9c69-ddd135f2f46c.png)
