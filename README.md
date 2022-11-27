@@ -23,4 +23,7 @@
 
 ## PUT (edit) product 
 
-### link : 
+### link : http://localhost:3000/Produit/produit/upDate/1
+
+![image](https://user-images.githubusercontent.com/101357738/204156139-73c062c2-cde4-412d-a0e1-b0562f05a909.png)
+
