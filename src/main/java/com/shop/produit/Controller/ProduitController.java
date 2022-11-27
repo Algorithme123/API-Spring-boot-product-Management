@@ -4,6 +4,7 @@ package com.shop.produit.Controller;
 import com.shop.produit.Models.Produit;
 import com.shop.produit.Services.ProduitServices;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -34,6 +35,11 @@ public class ProduitController {
         return  produitServices.CreateProduit(produit);
     }
 
+
+    @RequestMapping(value = "/produit/upDate/{id}",method = RequestMethod.PUT)
+    public ResponseEntity<Produit>  updateProduit(@RequestBody Produit produit,@PathVariable int id){
+        return  produitServices.updateProduit(produit,id);
+    }
 
 
 
