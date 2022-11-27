@@ -41,6 +41,12 @@ public class ProduitController {
         return  produitServices.updateProduit(produit,id);
     }
 
+    // methode Delete
+
+    @RequestMapping(value = "/produit/delete/{id}", method = RequestMethod.DELETE)
+    public String deleteProduit(@PathVariable int id){
+        return produitServices.deleteProduit(id);
+    }
 
 
 }
